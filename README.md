@@ -21,15 +21,21 @@ It acts as an intelligent research assistant that can dynamically use external t
 
 User Query
 ↓
+
 LangChain Agent (Tool-Calling)
 ↓
+
 Google Gemini LLM
 ↓
+
 Search / Wiki / Save Tools
 ↓
+
 Pydantic Output Parser
 ↓
+
 Structured Research Response
+
 
 ---
 
@@ -47,9 +53,13 @@ Structured Research Response
 
 SmartChat/
 │── main.py # Entry point for the chatbot
+
 │── tools.py # Custom tools (search, wiki, save)
+
 │── requirements.txt # Project dependencies
+
 │── .gitignore # Ignored files
+
 │── .env # Environment variables (ignored)
 
 ---
@@ -83,7 +93,10 @@ GOOGLE_API_KEY=your_google_gemini_api_key
 ▶️ Usage
 Run the chatbot:
 
-python main.py
+--- 
+
+
+## python main.py
 Enter a research query when prompted:
 
 text
@@ -99,7 +112,7 @@ Return a structured response with sources
 
 ---
 
-🎯 Use Cases
+## 🎯 Use Cases
 Academic research assistance
 
 AI agent experimentation
@@ -110,7 +123,7 @@ Structured data extraction using LLMs
 
 ---
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 Web UI using Streamlit / React
 
 Conversation memory
