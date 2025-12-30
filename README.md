@@ -43,7 +43,7 @@ Structured Research Response
 
 - **Python**
 - **LangChain**
-- **Google Gemini (gemini-1.5-flash)**
+- **Google Gemini (gemini-2.5-flash-lite)**
 - **Pydantic**
 - **python-dotenv**
 
